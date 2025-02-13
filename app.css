@@ -1,0 +1,62 @@
+.midglass{
+    position: absolute;
+    display: grid;
+    grid-gap: 8rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 80%;
+    height: 360px;
+    padding: 20px;
+    justify-content: center;
+    align-content: center;
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.info{
+    display: flex;
+    gap: 150px;
+}
+input , select{
+    height: 40px;
+    width: 250px;
+    border: none;
+    outline: none;
+    /* inner box border/shadow */
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    background:  linear-gradient(27deg, rgba(255,58,181,1) 17%, rgba(142,0,230,1) 73%);
+    color: aliceblue;
+}
+::placeholder {
+    color: whitesmoke;
+    opacity: 10; /* Firefox */
+}
+.contact{
+    display: flex;
+    gap: 150px;
+}
+.location{
+
+    display: flex;
+    gap: 160px;
+}
+select option {
+    margin: 40px;
+    background: rgb(127, 4, 144);
+    color: #fff;   
+}
+button{
+    position: relative;
+    top: 490px;
+    left: 730px;
+    z-index: 2;
+}
