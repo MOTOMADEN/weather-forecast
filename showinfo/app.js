@@ -1,8 +1,8 @@
 let image = Math.floor(Math.random() * 15); 
 
 document.body.style.backgroundImage = `url('../img/${image}.jpg')`; 
-document.body.style.backgroundSize = "cover";
-document.body.style.repeat = "norepeat";
+// document.body.style.backgroundSize = "cover";
+// document.body.style.repeat = "norepeat";
 
 
 
